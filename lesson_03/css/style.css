@@ -1,0 +1,100 @@
+@import url(reset.css);
+
+/* * {
+    color: rgb(28, 39, 110);
+} */
+
+ /* звернення до кількох класів */
+  /* li, i {
+    color: rgb(31, 138, 19);
+  } */
+
+
+/* Звернення до селектоів класів на сторінці */
+
+/*  
+.content {
+    color: rgb(93, 38, 28);
+}  */
+.nav {
+  color: rgb(156, 80, 227);
+}
+
+.content-1 {
+  color: blue;
+}
+
+.title {
+  color: green;
+}
+.text {
+    color: rgb(173, 173, 37);
+}
+.date {
+  color: red;
+}
+.image {
+}
+.content-2 {
+  color: rgb(20, 20, 85);
+}
+.subtitle {
+  color: orange;
+}
+
+.info {
+  color: brown;
+}
+.content-3 {
+  color: rgb(120, 13, 122);
+}
+
+.content-4 {
+  color: rgb(155, 99, 26);
+}
+.content-5 {
+  color: blue;
+}
+.quote {
+  color: rgb(16, 142, 25);
+} 
+.blockqoute {
+  color: rgb(43, 189, 226);
+}
+.footer .nav {
+  color: rgb(132, 87, 33);
+}
+.item {
+	color: rgb(123, 109, 109);
+}
+
+/* cелектор id */
+
+#figcaption {
+  color: rgb(50, 13, 235);
+}
+
+/* cелектор у комбінації */
+
+p .quote {
+  color: rgb(102, 6, 104);
+}
+
+.aside > p {
+    color: rgb(255, 196, 255); 
+}
+main ~ .text {
+    color: rgb(83, 196, 93); 
+ }
+
+ .content + p {
+    color: brown; 
+ }
+.content-1 p {
+    color: rgb(192, 60, 124);
+  }
+ [class*="ite"] {
+    color: rgb(185, 100, 36);
+ }
+
+ 
