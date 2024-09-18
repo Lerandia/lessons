@@ -1,0 +1,136 @@
+/* підключення шрифтів з Google Fonts -  шрифт Work Sans */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,600;1,600&display=swap");
+
+/* підключення шрифтів з Google Fonts -  шрифт Roboto */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Work+Sans:ital,wght@0,600;1,600&display=swap");
+
+/* підключення шрифтів з Google Fonts -  шрифт DM Sans */
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz@0,9..40;1,9..40&family=Roboto:wght@400;500&family=Work+Sans:ital,wght@0,600;1,600&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,700;1,9..40,700&family=Roboto:wght@400;500&family=Work+Sans:ital,wght@0,600;1,600&display=swap");
+
+/* Google fonts (Plugin) */
+
+/* Work Sans */
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:regular,600&display=swap");
+
+/* Roboto */
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,500&display=swap");
+
+/* DM Sans */
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:regular,700&display=swap");
+
+/* Підключення локально шрифт якого немає в Google fonts */
+@import url("fonts.css");
+
+/* reset style */
+@import url("reset.css");
+
+body {
+  /* font-family: "Work Sans",sans-serif; */
+  /* font-family: "Roboto", sans-serif; */
+  /* font-family: "DM Sans", sans-serif; */
+  /* font-family: "FONTSPRING DEMO - Proxima Nova", sans-serif; */
+}
+
+/* HEADER */
+.header .footer {
+  font-family: "FONTSPRING DEMO - Proxima Nova", sans-serif;
+}
+.nav {
+  font-size: 20px;
+  line-height: 1.2; /* 24/20 */
+}
+
+.nav-link {
+  color: hsla(228, 77%, 29%, 0.8);
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 2px;
+  text-decoration-color: #a8498a;
+}
+
+/* MAIN */
+
+/* SECTION PORTFOLIO  шрифт Work Sans */
+.section-portfolio {
+  font-family: "Work Sans", sans-serif;
+}
+.title {
+  color: #132238;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 1.32; /* 50/38 */
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-decoration: overline;
+  text-decoration-style: dotted;
+}
+.content-portfolio {
+  color: #556070;
+  font-size: 18px;
+  line-height: 1.33; /* 24/18 */
+  text-align: right;
+}
+span {
+  text-decoration: line-through;
+  text-shadow:
+    -2px -2px 5px #24407c,
+    2px 2px 4px #9f671a;
+}
+
+/* SECTION PRODUCT  шрифт Roboto */
+.section-product {
+  font-family: "Roboto", sans-serif;
+}
+.subtitle-product {
+  color: #091133;
+  font-size: 50px;
+  line-height: 1.32; /* 66/50 */
+  font-weight: 500;
+  font-style: italic;
+  text-align: center;
+  text-transform: lowercase;
+  text-decoration: underline;
+  text-decoration-style: double;
+}
+.content-product {
+  color: #505f98;
+  font-size: 18px;
+  line-height: 1.67; /* 30/18 */
+  white-space: nowrap;
+}
+
+/* SECTION ABOUT  шрифт  DM Sans */
+.section-about {
+  font-family: "DM Sans", sans-serif;
+}
+.subtitle-about {
+  color: #1e1b39;
+  font-size: 88px;
+  line-height: 1.08; /* 95/88 */
+  font-weight: 700;
+  font-style: oblique;
+  text-align: center;
+  text-shadow: 3px 4px 6px #e447b2;
+  text-transform: capitalize;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+}
+.content-about {
+  color: #474464;
+  font-size: 24px;
+  line-height: 1.75; /* 42/24 */
+  text-align: justify;
+  word-spacing: 6px;
+}
+
+/* FOOTER */
+.footer a {
+  text-decoration: overline;
+  text-decoration-style: dashed;
+  text-decoration-color: #a86549;
+}
