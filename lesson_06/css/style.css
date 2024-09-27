@@ -1,0 +1,295 @@
+@import url("https://fonts.googleapis.com/css?family=Epilogue:regular,800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Manrope:regular,600,700&display=swap");
+
+@import url("reset.css");
+
+body {
+  font-family: "Epilogue", sans-serif;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+.header {
+  background-image: url("../img/art-cat-pattern.jpg.avif");
+  /* background-repeat: no-repeat; */
+  background-attachment: fixed;
+}
+.hero {
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+  padding: 20px;
+  margin-block-end: 30px;
+  text-shadow: 0px 0px 10px #da9e38;
+}
+.section-border {
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-inline: 15px;
+}
+.subtitle {
+  font-size: 20px;
+  font-weight: 800;
+  box-shadow: 0px 2px 10px #a84545;
+  text-align: center;
+  padding-block: 10px;
+  margin-block-end: 50px;
+}
+.items-border {
+  margin-inline: -15px;
+  font-size: 0;
+  margin-block-end: 60px;
+}
+
+.item-border {
+  display: inline-block;
+  width: 25%;
+  padding-inline: 15px;
+}
+/* .content {
+} */
+.border {
+  padding: 35px;
+  font-size: 18px;
+  text-align: center;
+  margin-block-end: 20px;
+}
+.text-solid {
+  border: 3px solid #4d45a8;
+}
+.text-dotted {
+  border: 3px dotted #4d45a8;
+}
+.text-dashed {
+  border: 3px dashed #4d45a8;
+}
+.text-double {
+  border: 3px double #4d45a8;
+}
+.text-mix {
+  border-top: 3px solid #e9ee44;
+  border-right: 3px solid #4fdf2b;
+  border-bottom: 3px solid #1709ac;
+  border-left: 3px solid #eb4314;
+}
+.outline {
+  text-align: center;
+  margin-block-end: 50px;
+}
+.text-outline {
+  max-width: 200px;
+  padding: 45px;
+  margin: 0 auto;
+  border: 3px dotted #6667ac;
+  outline: 6px double #eb4314;
+}
+.border-radius {
+  max-width: 1000px;
+  margin-block-end: 50px;
+}
+.items-radius {
+  margin-inline: -15px;
+  font-size: 0;
+}
+.item-radius {
+  display: inline-block;
+  width: 33%;
+  padding-inline: 15px;
+}
+.content-radius {
+  padding: 25px;
+}
+.circle {
+  background-color: #138c27;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.text-circle {
+  font-size: 20px;
+  text-align: center;
+  line-height: 5; /* 100/20 */
+}
+.text-radius {
+  max-width: 100px;
+  font-size: 20px;
+  text-align: center;
+  border: 2px solid #1709ac;
+  border-radius: 66% 34% 100% 20% / 30% 76% 24% 70%;
+}
+.section-box-shadow {
+  margin-block-end: 50px;
+}
+.content-shadow {
+  margin: 0 auto;
+  max-width: 300px;
+  /* border: 3px dashed #6667ac; */
+  box-shadow:
+    0px 2px 20px 3px #ea242b,
+    inset 0px 2px 20px 2px #872b3f;
+  border-radius: 8px;
+}
+.text-shadow {
+  padding: 50px;
+  font-size: 20px;
+  text-align: center;
+}
+.section-background {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-block-end: 50px;
+}
+
+.background-image {
+  background-color: #e9ee44;
+  /* background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%); */
+  background-image: url("../img/cute-cat.jpeg");
+  background-size: 200px;
+  /* background-size: cover; */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-position: 0 0; */
+  /* background:
+    url("../img/cat-it.png") no-repeat 0 0 / 200px,
+    linear-gradient(55.95deg, rgba(255, 64, 58, 0.3) 0%, rgba(247, 94, 5, 0.3) 100%),
+    url("../img/cute-cat.jpeg") no-repeat right top / 800px; */
+}
+
+.text-background-image {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+/* Макет Features */
+
+.portfolio {
+  background-color: #fdf0e9;
+  padding-top: 15px;
+  margin-block-end: 50px;
+}
+.container-potfolio {
+  max-width: 1107px;
+  margin: 0 auto;
+  padding-inline: 15px;
+}
+.block-portfolio {
+  margin-inline: -5px;
+  font-size: 0;
+}
+.arcticle-portfolio {
+  vertical-align: middle;
+  display: inline-block;
+  width: 50%;
+  padding-inline: 5px;
+}
+.content-portfolio {
+  color: #391400;
+}
+.test-top-portfolio {
+  font-size: 16px;
+  color: #ef6d58;
+  line-height: 2; /* 32/16 */
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-block-end: 20px;
+}
+.subtitile-portfolio {
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 1.14; /* 64/56 */
+  letter-spacing: -1px;
+  margin-block-end: 26px;
+}
+.text-portfolio {
+  font-size: 20px;
+  line-height: 1.6; /* 32/20 */
+  margin-block-end: 24px;
+}
+.list-portfolio {
+  display: inline;
+  color: rgba(57, 20, 0, 0.64);
+  line-height: 2; /* 32/16 */
+  font-size: 16px;
+}
+.item-list-potfolio {
+  padding: 16px;
+}
+.item-list-potfolio span {
+  display: inline-block;
+  background: url("../img/check-potfolio.svg") left / 32px no-repeat;
+  padding-left: 48px;
+  min-height: 32px;
+}
+
+/* Макет Dark */
+.section-dark {
+  font-family: "Manrope", sans-serif;
+  color: #fff;
+  background-color: #141414;
+}
+.content-image {
+  min-height: 860px;
+  background:
+    url("../img/abstract-oppacity-dark.svg") center / 470px no-repeat,
+    linear-gradient(180deg, #141414 0%, rgba(20, 20, 20, 0) 100%),
+    linear-gradient(180deg, rgba(20, 20, 20, 0) 0%, #141414 100%),
+    url("../img/background-dark.png");
+  text-align: center;
+}
+.container-dark {
+  max-width: 1096px;
+  margin: 0 auto;
+  padding-inline: 15px;
+}
+.content-dark {
+  margin-top: -64px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.subtitle-dark {
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 1.5; /* 87/58 */
+  margin-block-end: 14px;
+}
+.text-dark {
+  color: #999;
+  font-size: 18px;
+  line-height: 1.5; /* 27/18 */
+  margin-block-end: 50px;
+}
+.button-icon {
+  padding: 18px 24px;
+  background-color: #e50000;
+  border-radius: 8px;
+}
+.text-button {
+  display: inline-block;
+  background: url("../img/Icon-dark.png") left / 28px no-repeat;
+  padding-left: 32px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.5; /* 27/18 */
+}
+
+.footer {
+  background-image: url("../img/art-cat-pattern.jpg.avif");
+  background-attachment: fixed;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-inline: 15px;
+}
+.text-footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: 800;
+  text-shadow: 0px 0px 10px #da9e38;
+}
