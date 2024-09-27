@@ -17,7 +17,6 @@ body {
   background-attachment: fixed;
 }
 .hero {
-  /* color: #fff; */
   font-size: 30px;
   font-weight: 800;
   text-align: center;
@@ -276,4 +275,21 @@ body {
   font-size: 18px;
   font-weight: 600;
   line-height: 1.5; /* 27/18 */
+}
+
+.footer {
+  background-image: url("../img/art-cat-pattern.jpg.avif");
+  background-attachment: fixed;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-inline: 15px;
+}
+.text-footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: 800;
+  text-shadow: 0px 0px 10px #da9e38;
 }
