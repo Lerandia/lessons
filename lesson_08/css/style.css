@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css?family=Gaegu:regular,700&display=swap");
+
+@import url("reset.css");
+body {
+  font-family: "Gaegu", sans-serif;
+  /* background-color: rgba(146, 150, 147, 0.6); */
+  background: url("../img/jpeg~webp/bgrnd-header-vertical.webp") center / cover repeat;
+}
+
+.wrapper {
+  min-width: 100%;
+  overflow: hidden;
+}
+.header {
+  /* background: url("../img/jpeg~webp/bgrnd-header.webp") center / cover no-repeat; */
+  background-attachment: fixed;
+  margin-bottom: 30px;
+}
+.title {
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  color: #f99304;
+  padding-block: 15px;
+}
+/* .main {
+} */
+.main-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-inline: 15px;
+}
+
+/* Block Vector */
+.block-vector {
+  border: 2px solid #706e6e;
+  border-radius: 10px;
+  background-color: rgba(139, 138, 138, 0.8);
+  padding-inline: 15px;
+  margin-bottom: 30px;
+}
+.subtitle {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.items-vector-icons > p {
+  margin-bottom: 30px;
+  font-size: 35px;
+}
+.items-vector-icons > p:nth-child(1)::before {
+  content: "";
+  background: url("../img/svg/play.svg") left / cover no-repeat;
+  width: 148px;
+  height: 148px;
+  vertical-align: middle;
+}
+
+.items-vector-icons > p:nth-child(2)::before {
+  content: "";
+  background: url("../img/svg/calendar.svg") left / cover no-repeat;
+  width: 112px;
+  height: 112px;
+  vertical-align: middle;
+}
+.items-vector-icons > p:nth-child(3)::before {
+  content: "";
+  background: url("../img/svg/case.svg") left / cover no-repeat;
+  width: 112px;
+  height: 112px;
+  vertical-align: middle;
+}
+.items-vector-icons > p:nth-child(4)::before {
+  content: "";
+  background: url("../img/svg/facebook.svg") left / cover no-repeat;
+  width: 48px;
+  height: 48px;
+  vertical-align: middle;
+}
+.items-vector-icons > p:nth-child(5)::before {
+  content: "";
+  background: url("../img/svg/twitter.svg") left / cover no-repeat;
+  width: 48px;
+  height: 48px;
+  vertical-align: middle;
+}
+.items-vector-icons > p:nth-child(6)::before {
+  content: "";
+  background: url("../img/svg/instagram.svg") left / cover no-repeat;
+  width: 48px;
+  height: 48px;
+  vertical-align: middle;
+}
+.items-vector-icons > p:nth-child(7)::before {
+  content: "";
+  background: url("../img/svg/logo.svg") left / cover no-repeat;
+  width: 48px;
+  height: 48px;
+  vertical-align: middle;
+}
+
+.items-vector-content {
+  font-size: 35px;
+}
+.items-vector-content > p:not(:last-child) {
+  margin-bottom: 30px;
+}
+.items-vector-content > p:nth-child(1)::before {
+  content: "";
+  background: url("../img/svg/gift.svg") left / cover no-repeat;
+  width: 148px;
+  height: 148px;
+  vertical-align: middle;
+}
+.items-vector-content > p:nth-child(2)::before {
+  content: "";
+  background: url("../img/svg/cloud.svg") left / cover no-repeat;
+  width: 282px;
+  height: 242px;
+  vertical-align: middle;
+}
+.items-vector-content > p:nth-child(3)::before {
+  content: "";
+  background: url("../img/svg/grafic.svg") left / cover no-repeat;
+  width: 338px;
+  height: 192px;
+  vertical-align: middle;
+}
+.items-vector-content > p:nth-child(4)::before {
+  content: "";
+  background: url("../img/svg/shape.svg") left / cover no-repeat;
+  width: 100px;
+  height: 80px;
+  vertical-align: middle;
+}
+
+/* Block Raster */
+.block-raster {
+  border: 2px solid #706e6e;
+  border-radius: 10px;
+  background-color: rgba(115, 114, 114, 0.8);
+  padding-inline: 15px;
+  margin-bottom: 30px;
+}
+
+.item-raster {
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.hero-foto-1x {
+  max-width: 1136px;
+  border-radius: 8px;
+}
+.text-hero-foto-1x {
+}
+.text {
+  font-size: 25px;
+  text-align: center;
+  padding-block: 10px;
+}
+.hero-foto-2x {
+  border-radius: 8px;
+  max-width: 1136px;
+  border-radius: 8px;
+}
+.text-hero-foto-2x {
+}
+.text-hero-foto-3x {
+  max-width: 1136px;
+}
+.video-reel {
+  border-radius: 8px;
+}
+.text-video-reel {
+  text-align: left;
+}
+
+.icons-raster {
+  margin: 0 auto;
+  margin-inline: -5px;
+  font-size: 0;
+  margin-bottom: 20px;
+}
+.icon-raster {
+  display: inline-block;
+  /* margin-left: 15px; */
+  width: 20%;
+  padding-inline: 5px;
+  vertical-align: middle;
+}
+/* .logo-digitelside {
+}
+.logo-fusion {
+}
+.logo-travel-explorer {
+}
+.logo-vortex {
+} */
